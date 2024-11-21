@@ -14,3 +14,6 @@ RUN chown -R www-data:www-data /var/www/html/
 RUN find /var/www/html/ -type d -exec chmod 775 {} \;
 RUN find /var/www/html/ -type f -exec chmod 664 {} \;
 RUN find /var/www/html/ -type d -exec chmod g+s {} \;
+
+# Remove default themes
+RUN rm -rf /var/www/html/wp-content/themes/twenty*
