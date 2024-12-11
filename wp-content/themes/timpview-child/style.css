@@ -5,7 +5,7 @@
  Author:       Josh Espinoza, Rob Francom, Shauna Sprunger
  Author URI:   https://tech.provo.edu
  Template:     pcsd-2019-theme
- Version:      1.0.0
+ Version:      1.0.05
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  timpview-child
@@ -53,6 +53,7 @@ a {
 
 a:hover {
 	color: #fc7e02;
+	text-decoration: underline;
 }
 
 nav>ul>li:hover>a {
