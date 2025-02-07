@@ -71,29 +71,20 @@ Post grid
 ==============================*/
 .searchResults .post:nth-child(even),
 .postgrid .post:nth-child(even),
-.staff-member-listing .personalvCard:nth-child(even) {
-	background-color: #e1e9f4;
+.staff-member-listing .personalvCard:nth-child(even),
+.tiles .tile:nth-child(even) {
+	background-color: var(--even-tile-bg-color);
 }
 
 .searchResults .post:nth-child(odd),
 .postgrid .post:nth-child(odd),
-.staff-member-listing .personalvCard:nth-child(odd) {
-	background-color: #cddbee;
+.staff-member-listing .personalvCard:nth-child(odd),
+.tiles .tile:nth-child(odd) {
+	background-color: var(--odd-tile-bg-color);
 }
 
 #mainHeader #cludo-search-form .search-submit {
-	background-color: #21395a;
-}
-
-/*=============================
-tile coloring
-===============================*/
-.tiles .tile:nth-child(even) {
-	background-color: #e1e9f4;
-}
-
-.tiles .tile:nth-child(odd) {
-	background-color: #cddbee;
+	background-color: var(--primary-color);
 }
 
 /*============================
